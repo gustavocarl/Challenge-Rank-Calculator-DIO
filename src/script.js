@@ -1,8 +1,8 @@
-let nameOfPlayer = playerName("Gustavo");
+const nameOfPlayer = playerName("Gustavo");
 
-let playerBalance = WinBalance(106, 5);
+const playerBalance = WinBalance(101, 5);
 
-let playerRank =  RankOfPlayer(playerBalance);
+const playerRank =  RankOfPlayer(playerBalance);
 
 console.log(`O Herói ${nameOfPlayer}, tem de saldo de ${playerBalance} e está no rank ${playerRank}`);
 
@@ -14,7 +14,7 @@ function playerName(name)
 
 function WinBalance(wins, loses)
 {
-    let rank = wins - loses;
+    const rank = wins - loses;
     return rank;
 }
 
